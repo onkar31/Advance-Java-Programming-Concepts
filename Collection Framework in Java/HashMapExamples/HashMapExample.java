@@ -16,5 +16,7 @@ public class HashMapExample {
             phonebook.remove("gimmy");
         } 
         System.out.println("After updating phonebook:" + phonebook);
+        phonebook.clear();
+        System.out.println("Phonebook after clear:" + phonebook);
     }
 }
